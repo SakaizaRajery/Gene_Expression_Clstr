@@ -1,0 +1,12 @@
+name: cu-cpbs-7602
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab=4.2.*
+  - matplotlib=3.9.*
+  - python=3.11.*
+  - seaborn=0.13.*
+  - scikit-learn=1.5.*
+
+OMP_NUM_THREADS=1
